@@ -1,12 +1,12 @@
 +++
 # Project title.
-title = "SHAP Package"
+title = "SHAP for Python"
 
 # Date this page was created.
 date = 2019-02-27T00:00:00
 
 # Project summary to display on homepage.
-summary = "A popular Python package that uses a unified approach to explain the output of any machine learning model. It is actively used by thousands of data scientists representing a diverse set of organizations, including startups, non-profits, major tech companies, NBA teams, banks, and medical providers. It has bindings for XGBoost, LightGBM, CatBoost, scikit-learn, TensorFlow and PyTorch."
+summary = "A popular package that uses SHAP values (theoretically grounded feature attributions) to explain the output of any machine learning model. It is actively used by thousands of data scientists representing a diverse set of organizations, including startups, non-profits, major tech companies, NBA teams, banks, and medical providers. It has high speed algorithm integrations with XGBoost, LightGBM, CatBoost, scikit-learn, TensorFlow and PyTorch."
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
