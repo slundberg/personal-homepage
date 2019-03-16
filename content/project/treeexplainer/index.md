@@ -6,7 +6,7 @@ title = "Tree SHAP"
 date = 2018-05-27T00:00:00
 
 # Project summary to display on homepage.
-summary = "Consistent individualized feature attribution for tree ensembles. While computing the classic Shapley values from game theory is NP-hard in general, we show how to exactly compute them in low order polynomial time for tree ensembles. This enables us to provide local explanations that come with strong theoretical guarantees and no sampling variability."
+summary = "Consistent individualized feature attribution for tree ensembles. While computing the classic Shapley values from game theory is NP-hard in general, we show how to exactly compute them in low order polynomial time for tree ensembles. This enables us to provide explanations of individual machine learning predictions that come with strong theoretical guarantees and no sampling variability."
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
