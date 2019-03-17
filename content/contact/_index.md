@@ -15,8 +15,15 @@ caption = ""
 +++
 
 
-For academic related questions you can reach me at `slund1@cs.washington.edu`.
+For academic related questions, you can reach me at:
+```
+slund1@cs.washington.edu
+```
 
-For personal or consulting related messages you can reach me at `scott@scottlundberg.com`.
+For personal or consulting related messages, you can reach me at:
 
-If your query is related to SHAP, please post it as a [github issue](https://github.com/slundberg/shap) where others can help and benefit from the discussion and answers.
+```
+scott@scottlundberg.com
+```
+
+If your query is related to SHAP, please post it as a [github issue](https://github.com/slundberg/shap) so others can also benefit.
