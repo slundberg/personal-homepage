@@ -13,7 +13,7 @@ summary = "Understanding why a model makes a certain prediction can be as crucia
 tags = ["Deep Learning"]
 
 # Optional external URL for project (replaces project detail page).
-external_link = ""
+external_link = "http://papers.nips.cc/paper/7062-a-unified-approach-to-interpreting-model-predictions"
 
 # Slides (optional).
 #   Associate this project with Markdown slides.
