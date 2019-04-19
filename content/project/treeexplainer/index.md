@@ -1,6 +1,6 @@
 +++
 # Project title.
-title = "Tree SHAP"
+title = "Exact game theoretic explanations for trees"
 
 # Date this page was created.
 date = 2018-05-27T00:00:00

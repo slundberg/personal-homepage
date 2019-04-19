@@ -84,4 +84,4 @@ interests = [
 
 +++
 
-I am a PhD candidate in the [Paul G. Allen School of Computer Science & Engineering](https://cs.washington.edu) at the [University of Washington](https://www.washington.edu) working with [Su-In Lee](https://suinlee.cs.washington.edu). My research focuses on explainable artificial intelligence and its application to problems in medicine and healthcare. This has led to the development of broadly applicable methods and tools for interpreting complex machine learning models.
+I am a PhD candidate in the [Paul G. Allen School of Computer Science & Engineering](https://cs.washington.edu) at the [University of Washington](https://www.washington.edu) working with [Su-In Lee](https://suinlee.cs.washington.edu). My research focuses on explainable artificial intelligence and its application to problems in medicine and healthcare. This has led to the development of broadly applicable [methods and tools](https://github.com/slundberg/shap) for interpreting complex machine learning models that are now used in banking, logistics, sports, manufacturing, cloud services, economics, and many other areas.

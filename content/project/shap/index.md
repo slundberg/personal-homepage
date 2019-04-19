@@ -1,6 +1,6 @@
 +++
 # Project title.
-title = "SHAP for Python"
+title = "Explain any machine learning model"
 
 # Date this page was created.
 date = 2019-02-27T00:00:00
