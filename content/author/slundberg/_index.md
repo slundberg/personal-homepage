@@ -9,11 +9,11 @@ authors = ["slundberg"]
 superuser = true
 
 # Role/position
-role = "PhD Candidate, NSF Fellow"
+role = "Senior Researcher"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "University of Washington", url = "" } ]
+organizations = [ { name = "Microsoft Research", url = "" } ]
 
 # Short bio (displayed in user profile at end of posts)
 bio = "My research interests include explainable AI, and machine learning, particularly for medical applications."
@@ -84,4 +84,4 @@ interests = [
 
 +++
 
-I am a PhD candidate in the [Paul G. Allen School of Computer Science & Engineering](https://cs.washington.edu) at the [University of Washington](https://www.washington.edu) working with [Su-In Lee](https://suinlee.cs.washington.edu). My research focuses on explainable artificial intelligence and its application to problems in medicine and healthcare. This has led to the development of broadly applicable [methods and tools](https://github.com/slundberg/shap) for interpreting complex machine learning models that are now used in banking, logistics, sports, manufacturing, cloud services, economics, and many other areas.
+I am a senior researcher at [Microsoft Research](https://www.microsoft.com/research). Before joining Microsoft, I did my Ph.D. studies at the [Paul G. Allen School of Computer Science & Engineering](https://cs.washington.edu) of the [University of Washington](https://www.washington.edu) working with [Su-In Lee](https://suinlee.cs.washington.edu). My work focuses on explainable artificial intelligence and its application to problems in medicine and healthcare. This has led to the development of broadly applicable [methods and tools](https://github.com/slundberg/shap) for interpreting complex machine learning models that are now used in banking, logistics, sports, manufacturing, cloud services, economics, and many other areas.
