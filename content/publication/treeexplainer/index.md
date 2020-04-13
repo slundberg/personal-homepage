@@ -1,6 +1,6 @@
 +++
-title = "Explainable AI for Trees: From Local Explanations to Global Understanding"
-date = 2019-04-18T00:00:00
+title = "From local explanations to global understanding with explainable AI for trees"
+date = 2020-01-18T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["S. Lundberg", "G. Erion", "H. Chen", "A. DeGrave", "J. Prutkin", "B. Nair", "R. Katz", "J. Himmelfarb", "N. Bansal", "S. Lee"]
@@ -14,13 +14,15 @@ authors = ["S. Lundberg", "G. Erion", "H. Chen", "A. DeGrave", "J. Prutkin", "B.
 # 4 = Report
 # 5 = Book
 # 6 = Book section
-publication_types = ["1"]
+publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
 publication = ""
-publication_short = "submitted for review"
+publication_short = "Nature Machine Intelligence, volume 2, pages 56-67"
 
-link = "https://github.com/suinleelab/treeexplainer-study"
+link = "https://www.nature.com/articles/s42256-019-0138-9"
+
+extra_text = "*(selected to be the cover article)*"
 
 # Abstract.
 abstract = ""
@@ -47,7 +49,7 @@ tags = []
 projects = ["internal-project"]
 
 # Links (optional).
-#url_pdf = "https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fa%2Fcs.washington.edu%2Fsuinlee%2FCloudControl_Hiranuma_EtAl_FINAL.pdf%3Fattredirects%3D0%26d%3D1&sa=D&sntz=1&usg=AFQjCNEXxZID2Plyi46_pzJ_x-5eNAmBOQ"
+url_pdf = "https://rdcu.be/b0z70"
 #url_preprint = "https://www.biorxiv.org/content/10.1101/278762v2.abstract"
 url_code = "https://github.com/suinleelab/treeexplainer-study"
 #url_dataset = "#"

@@ -13,7 +13,7 @@ summary = "Consistent individualized feature attribution for tree ensembles. Whi
 tags = []
 
 # Optional external URL for project (replaces project detail page).
-external_link = "https://arxiv.org/abs/1802.03888"
+external_link = "https://rdcu.be/baVbR"
 
 # Slides (optional).
 #   Associate this project with Markdown slides.
