@@ -22,7 +22,7 @@ publication_short = "Fair & Responsible AI Workshop @ CHI2020"
 
 link = "https://towardsdatascience.com/explaining-measures-of-fairness-f0e419d4e0d7"
 
-extra_text = "*(selected to be the cover article)*"
+extra_text = ""
 
 # Abstract.
 abstract = ""
