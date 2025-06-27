@@ -11,7 +11,9 @@
     <p class="pub-abstract" itemprop="text">{{ .Params.abstract | markdownify }}</p>
     {{ end }}
 
-    {{ if (.Params.publication_types) and (ne (index .Params.publication_types 0) "0") }}
+    {{ if .Params.publication_types }}
+    {{ $pub_type_first := index .Params.publication_types 0 }}
+    {{ if and $pub_type_first (ne $pub_type_first "0") }}
     <div class="row">
       <div class="col-md-1"></div>
       <div class="col-md-10">
@@ -31,6 +33,7 @@
       <div class="col-md-1"></div>
     </div>
     <div class="d-md-none space-below"></div>
+    {{ end }}
     {{ end }}
 
     {{ if .Params.publication }}

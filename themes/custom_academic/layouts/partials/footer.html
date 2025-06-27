@@ -42,9 +42,12 @@
     {{ end }}
 
     {{/* Comments JS. */}}
-    {{ $comments_enabled := and $.Site.DisqusShortname (not (or $.Site.Params.disable_comments $.Params.disable_comments)) }}
+    {{ $disqus_shortname := "" }}
+    {{ with .Site.Config.Services.Disqus.Shortname }}{{ $disqus_shortname = . }}{{ end }}
+    {{ if not $disqus_shortname }}{{ with .Site.Params.disqusShortname }}{{ $disqus_shortname = . }}{{ end }}{{ end }}
+    {{ $comments_enabled := and $disqus_shortname (not (or $.Site.Params.disable_comments $.Params.disable_comments)) }}
     {{ if and $comments_enabled ($.Site.Params.comment_count | default true) }}
-    <script id="dsq-count-scr" src="//{{ .Site.DisqusShortname }}.disqus.com/count.js" async></script>
+    <script id="dsq-count-scr" src="//{{ $disqus_shortname }}.disqus.com/count.js" async></script>
     {{ end }}
 
     {{/* Initialise code highlighting. */}}

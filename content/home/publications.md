@@ -65,4 +65,4 @@ subtitle = ""
  css_class = ""
 +++
 
-
+For the most up-to-date list of publications, please visit my [Google Scholar profile](https://scholar.google.com/citations?user=ESRugcEAAAAJ).

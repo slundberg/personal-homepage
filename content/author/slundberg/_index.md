@@ -9,20 +9,21 @@ authors = ["slundberg"]
 superuser = true
 
 # Role/position
-role = "Senior Researcher"
+role = "Member of Technical Staff"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
 organizations = [ { name = "Microsoft Research", url = "" } ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "My research interests include explainable AI, and machine learning, particularly for medical applications."
+bio = "My research interests include language models, explainable AI, and general machine learning, particularly for medical applications."
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = "scottmlundberg@gmail.com"
 
 # List (academic) interests or hobbies
 interests = [
+  "Language Models",
   "Explainable AI",
   "Machine Learning",
   "Healthcare",
@@ -84,4 +85,4 @@ interests = [
 
 +++
 
-I am a Senior Researcher at [Microsoft Research](https://www.microsoft.com/research) and an Affiliate Assistant Professor at the [University of Washington](https://www.washington.edu). My work focuses on explainable artificial intelligence and its application to problems in medicine and healthcare. This has led to the development of broadly applicable [methods and tools](https://github.com/slundberg/shap) for interpreting complex machine learning models that are now used in banking, logistics, manufacturing, cloud services, economics, sports, and other areas. I did my Ph.D. studies at the [Paul G. Allen School of Computer Science & Engineering](https://cs.washington.edu) of the [University of Washington] working with [Su-In Lee](https://suinlee.cs.washington.edu).
+I am a Member of Technical Staff at [Microsoft AI](https://www.microsoft.ai) (Health), and an Affiliate Assistant Professor at the [University of Washington](https://www.washington.edu). Previously I was a Staff Research Scientist at [Google DeepMind](https://deepmind.google), and a Senior Researcher at [Microsoft Research](https://www.microsoft.com/research). My work focuses on large language models, explainable artificial intelligence, and their application to problems in medicine and healthcare. This has led to the development of broadly applicable [methods](https://github.com/shap/shap) and [tools](https://github.com/guidance-ai/guidance) for complex machine learning models that are now used in banking, logistics, manufacturing, cloud services, economics, sports, and other areas. I did my Ph.D. studies at the [Paul G. Allen School of Computer Science & Engineering](https://cs.washington.edu) of the University of Washington working with [Su-In Lee](https://suinlee.cs.washington.edu).
