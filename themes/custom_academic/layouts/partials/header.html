@@ -116,10 +116,13 @@
   {{ end }}
 
   {{ if not hugo.IsServer }}
-  {{ if .Site.GoogleAnalytics }}
+  {{ $ga_id := "" }}
+  {{ with .Site.Config.Services.GoogleAnalytics.ID }}{{ $ga_id = . }}{{ end }}
+  {{ if not $ga_id }}{{ with .Site.Params.googleAnalytics }}{{ $ga_id = . }}{{ end }}{{ end }}
+  {{ if $ga_id }}
     <script>
       window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-      ga('create', '{{ .Site.GoogleAnalytics }}', 'auto');
+      ga('create', '{{ $ga_id }}', 'auto');
       {{ if .Site.Params.privacy_pack }}ga('set', 'anonymizeIp', true);{{ end }}
       ga('require', 'eventTracker');
       ga('require', 'outboundLinkTracker');
